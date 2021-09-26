@@ -8,12 +8,12 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    <title>Hello, world!</title>
+    <title>CodeSnippet! - Born to Snip</title>
   </head>
   <body>
       <!-- nav -->
         <nav class="navbar navbar-light bg-light justify-content-between">
-            <a class="navbar-brand">CodeSnippet</a>
+            <a class="navbar-brand">Code<span class="text-weight-bold">Snippet</span></a>
             <form class="form-inline">
               <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
               <button class="btn btn-outline-success my-2 m-2 my-sm-0" type="submit">Search</button>
@@ -23,6 +23,26 @@
           </nav>
     <!-- nav -->
 
+    <div class="container">
+        <div class="row mt-4">
+            <div class="col-9">
+                <!-- form -->
+                <form action="">
+                    <div class="form-group">
+                        <label for="exampleInputEmail1" class="h4 ">Paste Your Code</label>
+                        <input type="textarea" id ="code" style="height:320px" rows="2" cols="200" class="form-control" id="codeinput" aria-describedby="emailHelp" placeholder="">
+                    </div>
+                        <div class="text-right form-group">
+                            <button class="btn btn-primary">Save</button>
+                        </div>
+                </form>
+                <!-- form -->
+            </div>
+            <div class="col-3">
+                <h4>Frequently Used</h4>
+            </div>
+        </div>
+    </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
