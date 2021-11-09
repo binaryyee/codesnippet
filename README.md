@@ -1,4 +1,4 @@
-# codesnippet
+# CodeSnippet
 
 A cloud-based application for storing and organising commonly used code components, created with HTML, CSS, and JS in the frontend and Django, a Python web framework in the backend.
 
